@@ -1,0 +1,94 @@
+
+title{
+ color: white;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem 2rem;
+  background-image : url('https://i0.wp.com/www.cssscript.com/wp-content/uploads/2019/01/Create-A-Background-Particles-System-With-JavaScript-And-Canvas-nodes.js.png?fit=512%2C369&ssl=1');
+}
+
+.workingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem 2rem;
+  width: 100%;
+  color:white;
+}
+
+.workingSpace {
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='100rem' height='100rem'><text x='0' y='20' fill='044B94' fill-opacity='0.1' font-size='30'>print</text></svg>");
+  background-repeat:no-repeat;
+  background-position: center;
+  padding: 20px;
+  width: 50%;
+  height: 600px;
+  min-height: 600px;
+  border: 2px white glassy;
+  white-space: pre-wrap;
+}
+
+.buttonSpace {
+  padding: 20px;
+  align-items: center;
+  border: 4px purple solid;
+  width: 30%;
+  height: 600px;
+}
+
+.codeSpace {
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='100rem' height='100rem'><text x='0' y='20' fill='044B94' fill-opacity='0.1' font-size='30'>code</text></svg>");
+  background-repeat:no-repeat;
+  background-position: center;
+  padding: 60px;
+  width: 80%;
+  height: auto;
+  min-height: 200px;
+  border: 4px rgb(0, 255, 76) solid;
+  white-space: pre-wrap;
+}
+
+.errorSpace {
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='100' height='100'><text x='0' y='50' fill='044B94' fill-opacity='0.1' font-size='20'>Error</text></svg>");
+  background-repeat:no-repeat;
+  background-position: center;
+  padding: 20px 60px;
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+  width: 80%;
+  height: auto;
+  min-height: 10px;
+  border: 4px rgb(144, 211, 255) dotted;
+  white-space: pre-wrap;
+}
+
+.workingText {
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  background-color: skyblue;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: gold;
+}
+
+.pageTitle{
+  width: 100%;
+  text-align: center;
+  text-color:white;
+  font-weight:bold;
+  font-size:300%;
+}
